@@ -11,7 +11,18 @@ Screenshot [link](https://raw.githubusercontent.com/Miraculix200/TweepLister/mas
 * Automatically follow all users in any of these lists
 * Dump list in machine readable format
 
-### WARNING: Using the follow all feature of this addon may be against the Twitter TOS
+### WARNING 
+
+Using the follow all feature of this addon may be against the Twitter TOS
+
+### WARNING2
+
+Installing addons from untrusted sources may have risky effects, like stealing your cookies, intercepting the passwords you enter on websites for which the addon requested permissions in manifest.json 
+
+Generally you should only install addons which have been approved by addons.mozilla.org
+
+Or ask someone who understands Javascript if the addon is safe
+
 
 ## Installation:
 
@@ -41,12 +52,10 @@ To see mutual followers you need to collect both, the Followers and Following li
 
 The rest is pretty much self-explanatory
 
-# WARNING
 
-Note that installing addons from untrusted sources may have risky effects, like stealing your cookies, intercepting the passwords you enter on websites for which the addon requested permissions in manifest.json 
+## Updating:
 
-Generally you should only install addons which have been approved by addons.mozilla.org
-
-Or ask someone who understands Javascript if the addon is safe
-
+You may have to uninstall the old version if you installed from .xpi
+For that you may backup the file storage.js (containing the lists) from the folder C:\users\<yourusername>\appdata\Roaming\Mozilla\Firefox\xxxx.default\browser-extension-data\tweeplister@example.org\
+You need to restore that file while Firefox is not running
 
