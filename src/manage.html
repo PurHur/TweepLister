@@ -1,0 +1,248 @@
+<html>
+<head>
+<meta charset="utf-8">
+<META HTTP-EQUIV="Access-Control-Allow-Origin" CONTENT="http://twitter.com">
+<title>
+TweepLister
+</title>
+
+<link rel="stylesheet" type="text/css" href="manage.css">
+</head>
+<body>
+
+
+
+	<div class="tl_page_container">
+
+
+		<div class="popup_background" id="popup_background">
+		</div>
+
+		<div class="popup listowner_popup" id = "listowner_popup">
+			<div class="popup_button" id="lo_button_delete">
+				Delete
+			</div>
+			<div class="popup_button" id="lo_button_refresh">
+				Refresh
+			</div>
+		</div>
+
+		<div class="popup listuser_popup" id="listuser_popup">
+			<div class="popup_button" id="popup_button_profile">
+				Show Profile
+			</div>
+			<div class="popup_button" id="popup_button_follow">
+				Follow
+			</div>
+		</div>
+
+		<div class="popup follow_unfollow" id="follow_unfollow_popup">
+			<div class="fu_popup_column fu_content">
+				<label class="fu_popup_column fu_title">
+					Followed
+				</label>
+				<div class="fu_popup_column fu_ulist"  id="fu_column_followed">
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>			<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>			<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+				
+				</div>				
+				
+			</div>
+			<div class="fu_popup_column fu_content">
+				<label class="fu_popup_column fu_title">
+					Unfollowed
+				</label>
+				<div class="fu_popup_column fu_ulist"  id="fu_column_unfollowed">
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+					<div class="tl_user_item">testtt</div>
+
+				</div>				
+			</div>
+
+		</div>
+
+		<div class="tl_heading_container">
+			<div class="tl_heading" id="tl-heading">
+				TweepLister
+			</div>
+			<div id="tl_status" class="tl_status">
+				Not logged in to Twitter
+			</div>
+
+			<div class="dropdown-container">
+
+				<div class="dropdown">
+				  <button class="dropbtn" id="dropbtn-interval"
+				  	title="Wait x sec between follows after clicking Follow All">### loading ###</button>
+				  <div class="dropdown-content"  id="dd-interval">
+					  <p data="10">10 seconds</p>
+					  <p data="5">5 seconds</p>
+					  <p data="4">4 seconds</p>
+					  <p data="3">3 seconds</p>
+					  <p data="2">2 seconds</p>
+				  </div>
+				</div>
+				<div class="dropdown" >
+				  <button class="dropbtn" id="dropbtn-maxfollows"
+				  	title="Follow max users when clicking Follow All">### loading ###</button>
+				  <div class="dropdown-content"  id="dd-maxfollows">
+					  <p data="100">100 users</p>
+					  <p data="250">250 users</p>
+					  <p data="500">500 users</p>
+					  <p data="750">750 users</p>
+				  </div>
+				</div>
+				<div class="dropdown" >
+				  <button class="dropbtn">About</button>
+				  <div class="dropdown-content"  id="dd-about">
+					  <p data="home">Homepage</p>
+				  </div>
+				</div>
+
+
+				</div>
+			</div>
+
+		</div>
+
+		<br>
+		<br>
+
+
+		
+		<div class="tl_block">
+			<div id="tl_available_lists_1" class="available_list_container">
+			</div>
+			<div id="tl_available_lists_2" class="available_list_container">
+			</div>
+			<div id="tl_available_lists_3" class="available_list_container">
+			</div>
+		</div>
+
+
+		<br>
+		<br>
+
+
+
+		<div class="tl_table_container" id="tl_table_container">
+			<div class="tl_table_row">
+
+				<div  class="tl_table_column">
+					<div id="title_followers" class="tl_table_title">
+						Followers
+					</div>
+					<div id="subtitle_followers" class="tl_table_title sub">
+						Last update: 
+					</div>
+					<div id="tools_followers" class="tl_tools">
+						<span class="tl_button follow_button" id="bt_followers_follow">
+							Follow All
+						</span>
+						<span class="tl_button follow_button" id="bt_followers_dump">
+							Data
+						</span>
+						<span class="tl_button" id="bt_followers_delete" style="border: 2px solid red;">
+							Delete All
+						</span>
+					</div>
+					<div  id="tl_list_followers"></div>
+				</div>
+				<div class="tl_table_column">
+					<div id="title_mutuals" class="tl_table_title">
+						Mutuals
+					</div>
+					<div class="tl_table_title sub" style="visibility: hidden;">
+					x
+					</div>
+
+					<div id="tools_mutuals" class="tl_tools">
+						<span class="tl_button follow_button" id="bt_mutuals_follow">
+							Follow All
+						</span>
+						<span class="tl_button follow_button" id="bt_mutuals_dump">
+							Data
+						</span>
+						<span class="tl_button" id="bt_mutuals_delete" style="border: 2px solid red; visibility: hidden">
+							Delete All
+						</span>
+					</div>
+					<div id="tl_list_mutuals"></div>
+
+				</div>
+				<div class="tl_table_column">
+					<div id="title_following" class="tl_table_title">
+						Following
+					</div>
+					<div id="subtitle_following" class="tl_table_title sub">
+						Last update: 
+					</div>
+					<div id="tools_following" class="tl_tools">
+						<span class="tl_button follow_button" id="bt_following_follow">
+							Follow All
+						</span>
+						<span class="tl_button follow_button" id="bt_following_dump">
+							Data
+						</span>
+						<span class="tl_button" id="bt_following_delete" style="border: 2px solid red;">
+							Delete All
+						</span>
+					</div>
+					<div id="tl_list_following"></div>
+				</div>
+				<div class="tl_table_column">
+					<div id="title_favorites" class="tl_table_title">
+						Favorites
+					</div>
+					<div class="tl_table_title sub" style="visibility: hidden;">
+						x
+					</div>
+					<div id="tools_favorites" class="tl_tools">
+						<span class="tl_button follow_button" id="bt_favorites_follow">
+							Follow All
+						</span>
+						<span class="tl_button follow_button" id="bt_favorites_dump">
+							Data
+						</span>
+						<span class="tl_button" id="bt_favorites_delete" style="border: 2px solid red;">
+							Delete All
+						</span>
+					</div>
+					<div id="tl_list_favorites"></div>
+				</div>
+
+			</div>
+			
+		</div>
+
+
+
+	</div>
+
+<script type="text/javascript" src="manage.js"></script>
+</body>
+</html>

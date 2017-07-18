@@ -1,0 +1,149 @@
+
+
+.tweeplister-bar
+{
+	width: 450px;
+    margin-left:auto;
+    margin-right:auto;
+	height: 40px;
+ 	text-align: center;
+	position: fixed;
+	visibility: hidden;
+	top: 0px;
+	font-family: 'proxima-nova', 'helveticaneue-light', 'helvetica', sans-serif; 
+    left:0;
+    right:0;
+	z-index: 9001;
+	pointer-events: none;
+}
+
+.tweeplister_butt
+{
+	pointer-events: auto;
+	border-radius: 15px; 
+	border: 2px solid red; 
+	margin: 0 auto;
+
+	background: black;
+	color: white; 
+	font-weight: bold;
+	z-index: 9001;
+	display: inline-block;
+	position: relative;
+	
+	
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+
+	cursor: pointer; cursor: hand;
+	
+}
+
+.tweeplister_popup
+{
+	height: 300px;
+	width: 600px;
+	background: black;
+	margin: 0 auto;
+	z-index: 9002;
+	border-radius: 25px; 
+	border: 2px solid red; 
+	display: block;
+	top: 200px; 
+	position: relative;
+	color: white;
+		text-align: center;
+}
+
+.tweeplister_popup_title
+{
+	
+	padding: 20px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.tweeplister_popup_text
+{
+	padding: 20px;
+	font-size: 24px;
+
+}
+
+.tweeplister_popup_counter
+{
+	padding: 20px;
+	font-size: 24px;
+
+}
+
+.tweeplister_fill
+{
+	height: 100%;
+	width: 100%;
+	z-index: 9001;
+	background: rgb(12,12,12,0.5);
+	visibility: hidden;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+
+}
+
+.small_butt
+{
+	font-size: 11px;
+}
+.large_butt
+{
+	font-size: 20px;
+}
+
+.tweeplister_popup_button_container
+{
+	width: 95%;
+	height: 81px;
+	padding: 20px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+
+}
+
+.tl_button
+{
+	height: 30px;
+	
+	
+	
+	border-radius: 15px; 
+	border: 2px solid yellow; 
+	background: rgb(112, 12, 12);
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+
+	text-align: center;
+	cursor: pointer; cursor: hand;
+}
+
+.tl_button:hover
+{
+	background: red;
+
+}
+
+.tl_button.cancel
+{
+	border: 2px solid red; 
+	
+	float: left;
+	
+}
+
+.tl_button.submit
+{
+	float: right;
+}

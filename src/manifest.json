@@ -1,0 +1,47 @@
+{
+  "manifest_version": 2,
+  "name": "TweepLister",
+  "version": "1.0",
+  "description": "Save and manage Twitter lists",
+  "icons": {
+    "48": "icons/tweeplister.png",
+    "32": "icons/tweeplister.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "tweeplister@example.org"
+    }
+  },
+
+  "permissions": ["webRequest",
+    "storage",
+    "alarms",
+     "webRequestBlocking",
+    "*://*.twitter.com/*",
+    "*://pbs.twimg.com/*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "16": "icons/tweeplister.png",
+      "32": "icons/tweeplister.png"
+    },
+    "default_title": "TweepLister List Manager"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*", "*://*.twitter.com/*"],
+      "css": ["twitter.css"],
+      "js": ["tweeplister.js"]
+    }
+  ]
+
+
+}
