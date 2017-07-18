@@ -14,6 +14,11 @@ for Firefox
 
 ## Usage:
 
+Note that installing addons from untrusted sources may have risky effects, like stealing your cookies, intercepting the passwords you enter on websites etc.
+
+Generally you should only install addons which have been approved by addons.mozilla.org
+
+
 ### From source
 
 1. Download TweepLister from Github
