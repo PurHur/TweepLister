@@ -1,6 +1,6 @@
 # TweepLister by gab.ai/miraculix
 
-##Features:
+## Features:
 
 * Save lists of followers 
 * Display list of mutual followers
@@ -8,8 +8,8 @@
 * Automatically follow all users in any of these lists
 * Dump list in machine readable format
 
-###WARNING: Using the follow all feature of this addon may be against the Twitter TOS
+### WARNING: Using the follow all feature of this addon may be against the Twitter TOS
 
-##Usage:
+## Usage:
 
 Test
