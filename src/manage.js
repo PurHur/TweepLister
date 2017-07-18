@@ -2,11 +2,10 @@
 /* ################################################################################################## */
 /* ################################################################################################## */
 
-var gSpamDelay = 3;
-var gFollowMaxUsers = 100;
-
 const VERSION = browser.runtime.getManifest().version;
 
+var gSpamDelay = 3;
+var gFollowMaxUsers = 100;
 var gSaveListLock = false;
 var gSomethingWentWrongOnTwitter = false;
 var gTabIndex = 1;
@@ -622,7 +621,6 @@ async function requestTwitterFollow(auth_token, screen_name)
 		 console.error("wtf fix me");
 		 return;
 	}
-	console.log("following " + screen_name);
 	var xhr = new XMLHttpRequest();
 	xhr.open('POST', 'https://mobile.twitter.com/' + screen_name + '/follow', true);
 	xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
@@ -663,7 +661,6 @@ function getMyScreenName()
 	let match = regex.exec(xhr.responseText);
 	if (match != null && match[1] != null)
 	{
-		console.log("Got my screenname: " + match[1]);
 		return match[1];
 	} else console.error("tweeplister: failed to get my screenname");
 	return null;

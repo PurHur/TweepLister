@@ -1,16 +1,10 @@
-
 body {
 	background: rgb(187,187,187);
 	padding: 0px;
-	
-
-
 }
 .tl_page_container
 {
 		font-family: 'proxima-nova', 'helveticaneue-light', 'helvetica', sans-serif; 
-	
-
 }
 
 .tl_heading_container
@@ -21,34 +15,24 @@ body {
 	width: 100%;
 	background: rgb(222,222,222);
 	z-index: 9003;
-
 }
 
 .tl_block
 {
 	top: 50px;
 	position: relative;
-	
 	padding-left: 20px;
 	border-radius: 25px; 
 	border: 2px solid red; 
 	height: 130px;
-		width: 690px;
-	  margin-left: auto;
- 	 margin-right: auto;
- 	  display: block;
-
-
-
+	width: 690px;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	display: block;
 	background: black none repeat scroll 0% 0%;
 	color: white; 
-
-
-
 	overflow: auto;
 	font-size: 18px; 
-
-
 }
 
 .available_list_container
@@ -56,9 +40,7 @@ body {
 	width: 220px;
 	display: inline-block;
 	top: 0px;
-	
 	background: rgb(77,77,77);
-
 }
 
 
@@ -66,28 +48,20 @@ body {
 {
 	width: 180px;
 	height: 30px;
-	  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	cursor: pointer; cursor: hand;
-
-
 	padding: 5px;
-	
-
 }
-
 
 .tl_table_container
 {
 	margin: 0 auto;
 	padding: 10px;
 	width: 1280px;
-
 	 overflow: hidden;
-
 }
-
 
 .tl_table_title
 {
@@ -106,18 +80,14 @@ body {
 	display: inline;
 	height: 100%;
 	width: 15%;
-	
 	background: rgb(112, 12, 12);
-
 	border-radius: 5px; 
 	border: 2px solid red; 
-	
 }
 
 .tl_user_item.fu_popup
 {
 	height: 25px;
-
 }
 
 .tl_user_item
@@ -130,7 +100,6 @@ body {
 	border: 2px solid red; 
 	background: rgb(112, 12, 12);
 	display: inline;
-
 	background: rgb(112, 12, 12);
 	text-align: center;
 }
@@ -158,9 +127,6 @@ body {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background: rgb(112, 112, 112);
-
-	
-
 }
 
 .tl_userlist_item_butt
@@ -171,9 +137,7 @@ body {
 	width: 15%;
 	height: 25px;
 	border-radius: 5px; 
-
 	cursor: pointer; cursor: hand;
-
 }
 
 .tl_userlist_item_butt.favorite:hover, .tl_userlist_item_butt.delete:hover, .tl_userlist_item:hover, .tl_userlist_item_butt_delete:hover
@@ -191,7 +155,6 @@ body {
 {
 	background: yellow;
 	color: black;
-
 }
 
 .tl_button:hover
@@ -205,15 +168,9 @@ body {
 	color: black;
 }
 
-
-
-
 .tl_userlist_item:focus {
     background-color:red;
 }
-
-
-
 
 .tl_userlist_item_butt.favorite
 {
@@ -229,38 +186,29 @@ body {
 
 .tl_userlist_item
 {
-	
 	background: rgb(112, 12, 12);
-     float: left;
-     padding: 5px;
-   
+    float: left;
+    padding: 5px;
 	width: 70%;
 	height: 25px;
-	
 	border-radius: 5px; 
 	border: 2px solid red; 
 	font-size: 15px;
-
 	text-align: center;
 	cursor: pointer; cursor: hand;
-	
 }
 
 .tl_heading
 {
-	   
 	font-size: 40px;
 	font-weight: 900;
 	text-align: center;
-
 }
 
 .tl_status
 {
-	   
 	font-size: 14px;
 	text-align: center;
-
 }
 
 .tl_table_row
@@ -269,25 +217,18 @@ body {
     width: 100%; /*Optional*/
     table-layout: fixed; /*Optional*/
     border-spacing: 10px; /*Optional*/
-
 }
+
 .tl_table_column
 {
     display: table-cell;
-   
-
 	padding: 10px;
 	border-radius: 25px; 
 	border: 2px solid red; 
-
-
-	
 	  margin-left: auto;
  	 margin-right: auto;
-
 	background: black none repeat scroll 0% 0%;
 	color: white; 
-
 	font-size: 18px; 
 }
 
@@ -298,7 +239,6 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
-
 
 .tl_button
 {
@@ -312,7 +252,6 @@ body {
 	position: relative;
 }
 
-
 .popup
 {
 	border-radius: 25px; 
@@ -320,9 +259,7 @@ body {
 	background: black;
 	color: white;
 	z-index: 9002;
-
 	position: fixed;
-
 }
 
 .popup.listowner_popup
@@ -364,7 +301,6 @@ body {
 
 .popup.follow_unfollow
 {
-
 	top: 110px;
 	left: 300px;
 	width: 420px;
@@ -377,39 +313,28 @@ body {
 
 .fu_popup_column
 {
- 
-	
 	width: 100%;
 	overflow: hidden;
 	text-align: center;
-
-
 }
 
 .fu_popup_column.fu_title
 {
 	height:20%;
 	font-size: 25px;
-
-
-
 }
 
 .fu_popup_column.fu_content
 {
-
 	margin: 0 auto;
-		height:100%;
+	height:100%;
 }
 
 .fu_popup_column.fu_ulist
 {
-
 	height: 100%;
 	overflow: auto;
 	width: 100%;
-
-	
 }
 
 .popup_background
@@ -430,18 +355,15 @@ body {
     color: white;
     padding: 10px;
     font-size: 16px;
-   
     cursor: pointer;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
     cursor: pointer; cursor: hand;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -449,33 +371,25 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-       border-radius: 25px;
-  
-
+    border-radius: 25px;
 }
 
-/* Links inside the dropdown */
 .dropdown-content p {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-
-
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content p:hover {
 	background-color: blue;
 	color: white;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: blue;
 }
@@ -483,7 +397,6 @@ body {
 .dropdown-container {
 	top: 10px;
 	right: 100px;
-	
 	float: right;
 	display: inline-block;
 	position: fixed;

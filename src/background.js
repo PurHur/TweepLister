@@ -20,7 +20,7 @@ function handleMessage(request, sender, sendResponse) {
 		if (gBlockStarted == false)
 		{
 			gBlockStarted = true;
-			console.log("starting to block");
+			console.log("starting to block web requests to pbs.twimg.com");
 			browser.webRequest.onBeforeRequest.addListener(
 			  cancel,
 			  {urls: [BLOCK_PATTERN], types: ["image"]},

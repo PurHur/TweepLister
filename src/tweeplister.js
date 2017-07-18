@@ -320,9 +320,6 @@ function getCanonicalLinkElement()
 function checkCanonicalLink(canonical)
 {
 	let href = canonical.getAttribute("href");
-
-	console.log(href);
-
 	if (href.indexOf("/followers") == -1 && href.indexOf("/following") == -1) {
 		removeTweeplisterButton();
 	} else {
