@@ -1,4 +1,4 @@
-# TweepLister by gab.ai/miraculix
+# TweepLister by [gab.ai/miraculix](https://gab.ai/miraculix)
 for Firefox
 
 
