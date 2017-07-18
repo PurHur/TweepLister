@@ -1,4 +1,6 @@
 # TweepLister by gab.ai/miraculix
+for Firefox
+
 
 ## Features:
 
@@ -12,4 +14,14 @@
 
 ## Usage:
 
-Test
+### From source
+
+1. Download TweepLister from Github
+2. open about:debugging in Firefox
+3. Click "Load Temporary Add-on" and select any of the files in the src/ folder
+
+When you restart Firefox you have to repeat steps 2. and 3.
+
+### From addon
+
+?
