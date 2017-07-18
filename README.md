@@ -24,11 +24,11 @@ When you restart Firefox you have to repeat steps 2. and 3. If you don't want to
 
 ### From .xpi
 
-1. Download tweeplister-1.0-an+fx-windows.xpi from the folder above
+1. Download tweeplister-1.0-an+fx-windows.xpi from the folder above (or -linux or -mac)
 2. On Windows doubleclick the file, maybe you need to chose to load it with Firefox
 3. Click "Install" in the popup in Firefox
 
-The xpi may also work on MacOS
+Installing it from the addon menu may not work (error message about signing or so), use the doubleclick method or open it from the File menu in Firefox
 
 ## Usage:
 
