@@ -1,6 +1,7 @@
 # TweepLister by [gab.ai/miraculix](https://gab.ai/miraculix)
 ## Webextension for Firefox
 
+Screenshot [link](https://raw.githubusercontent.com/Miraculix200/TweepLister/master/ScreenShot1.jpg)
 
 ## Features:
 
