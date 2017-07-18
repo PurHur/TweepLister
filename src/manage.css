@@ -40,7 +40,6 @@ body {
 	width: 220px;
 	display: inline-block;
 	top: 0px;
-	background: rgb(77,77,77);
 }
 
 
@@ -126,7 +125,6 @@ body {
 	display: inline-block;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background: rgb(112, 112, 112);
 }
 
 .tl_userlist_item_butt
