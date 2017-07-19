@@ -159,7 +159,7 @@ async function startCollection()
 	let following = profilenav_list.getElementsByClassName("ProfileNav-item ProfileNav-item--following")[0];
 
 	let pnav_value_following = null;
-	let pnav_value_followers = null;
+	let pnav_value_followers = null; 
 
 	if (followers != null) pnav_value_followers = followers.getElementsByClassName("ProfileNav-value")[0];
 	if (following != null) pnav_value_following = following.getElementsByClassName("ProfileNav-value")[0];
