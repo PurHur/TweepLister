@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "TweepLister",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Save and manage Twitter lists",
   "icons": {
     "48": "icons/tweeplister.png",
