@@ -157,18 +157,24 @@ async function startCollection()
 	let profilenav_list = document.body.getElementsByClassName("ProfileNav-list")[0];
 	let followers = profilenav_list.getElementsByClassName("ProfileNav-item ProfileNav-item--followers")[0];
 	let following = profilenav_list.getElementsByClassName("ProfileNav-item ProfileNav-item--following")[0];
-	let pnav_value_followers = followers.getElementsByClassName("ProfileNav-value")[0];
-	let pnav_value_following = following.getElementsByClassName("ProfileNav-value")[0];
+
+	let pnav_value_following = null;
+	let pnav_value_followers = null;
+
+	if (followers != null) pnav_value_followers = followers.getElementsByClassName("ProfileNav-value")[0];
+	if (following != null) pnav_value_following = following.getElementsByClassName("ProfileNav-value")[0];
+
 	createPopup();
+
 	if (gPageIsFollowingList)
 	{
-		gNavValue = pnav_value_following.getAttribute("data-count");
+		if (pnav_value_following != null) gNavValue = pnav_value_following.getAttribute("data-count");
 		let setting =  await browser.storage.local.get("following_lists");
 		if (setting.following_lists != null) {
 			gFollowingLists = setting.following_lists;
 		} else gFollowingLists = new Array();
 	} else {
-		gNavValue = pnav_value_followers.getAttribute("data-count");
+		if (pnav_value_followers != null) gNavValue = pnav_value_followers.getAttribute("data-count");
 		let setting = await browser.storage.local.get("follower_lists");
 		if (setting.follower_lists != null) {
 			gFollowerLists = setting.follower_lists;
