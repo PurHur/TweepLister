@@ -22,7 +22,6 @@ body {
 	top: 50px;
 	position: relative;
 	padding-left: 20px;
-	border-radius: 25px; 
 	border: 2px solid red; 
 	height: 130px;
 	width: 690px;
@@ -80,7 +79,6 @@ body {
 	height: 100%;
 	width: 15%;
 	background: rgb(112, 12, 12);
-	border-radius: 5px; 
 	border: 2px solid red; 
 }
 
@@ -95,7 +93,6 @@ body {
 	vertical-align: bottom;
 	width: 80%;
 	float: left;
-	border-radius: 5px; 
 	border: 2px solid red; 
 	background: rgb(112, 12, 12);
 	display: inline;
@@ -134,7 +131,6 @@ body {
      float: right;
 	width: 15%;
 	height: 25px;
-	border-radius: 5px; 
 	cursor: pointer; cursor: hand;
 }
 
@@ -189,7 +185,6 @@ body {
     padding: 5px;
 	width: 70%;
 	height: 25px;
-	border-radius: 5px; 
 	border: 2px solid red; 
 	font-size: 15px;
 	text-align: center;
@@ -221,7 +216,6 @@ body {
 {
     display: table-cell;
 	padding: 10px;
-	border-radius: 25px; 
 	border: 2px solid red; 
 	  margin-left: auto;
  	 margin-right: auto;
@@ -240,7 +234,6 @@ body {
 
 .tl_button
 {
-	border-radius: 25px; 
 	border: 2px solid yellow; 
 	width: 100px;
 	text-align: center;
@@ -252,7 +245,6 @@ body {
 
 .popup
 {
-	border-radius: 25px; 
 	border: 2px solid blue; 
 	background: black;
 	color: white;
@@ -286,7 +278,6 @@ body {
 
 .popup_button
 {
-	border-radius: 25px; 
 	padding: 10px;
 	border: 2px solid yellow; 
 	width: 100px;
@@ -348,7 +339,6 @@ body {
 
 .dropbtn {
     background-color: rgb(12, 12, 112);
-	border-radius: 25px; 
 	border: 2px solid blue; 
     color: white;
     padding: 10px;
@@ -369,7 +359,6 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-radius: 25px;
 }
 
 .dropdown-content p {
